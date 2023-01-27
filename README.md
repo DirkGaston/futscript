@@ -22,8 +22,8 @@ In this assignment you will have to continue the development of an Express appli
 
 Development of this REST API should continue by adding:
 
-● A POST /login route that expects to receive in the payload the credentials of an admin user.
-○ The only admin user is the following:
+● A POST /login route that expects to receive in the payload the credentials of an admin user. <br><br>
+○ The only admin user is the following: <br><br>
 
 {
 "username": "admin",
@@ -35,10 +35,10 @@ In case of successful reception of these credentials you should answer the query
 ● In the 2 POST routes of the REST API to register new teams and players, a middleware must be added to obtain and validate a token located in the query headers.
 of the query
 
-● In the 2 GET Routes:
+● In the 2 GET Routes: <br><br>
 
 ○ /equipos
-Team records should be returned following the following example structure:
+Team records should be returned following the following example structure: <br><br>
 
 [
 {
@@ -49,10 +49,10 @@ Team records should be returned following the following example structure:
 "id": 8,
 "name": "Barcelona"
 },
-]
+] <br><br>
 
 ○ /equipos/:teamID/jugadores.
-The following example structure should be returned:
+The following example structure should be returned: <br><br>
 [
 {
 "name": "Karim Benzema",
